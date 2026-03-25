@@ -29,17 +29,17 @@
   <section class="bloc">
     <h2>Formulaire</h2>
 
-    <form class="formulaire">
+    <form class="formulaire" action=https://formspree.io/f/xpqozrqp method="POST">
       <label>Nom :</label>
-      <input type="text" required>
+      <input type="text" name="nom" required>
 
       <label>Email :</label>
-      <input type="email" required>
+      <input type="email" name="email" required>
 
       <label>Présence :</label>
-      <select>
-        <option>Oui</option>
-        <option>Non</option>
+      <select name="presence" required>
+        <option> Oui</option>
+        <option> Non</option>
       </select>
 
       <button type="submit">Envoyer</button>

@@ -72,7 +72,7 @@ body {
 }
 
 .hero-info {
-  background-image: url("https://images.unsplash.com/photo-1506784983877-45594efa4cbe");
+  background-image: url("https://images.unsplash.com/photo-1499084732479-de2c02d45fc4");
   background-size: cover;
   background-position: center;
   padding: 140px 20px;
@@ -132,6 +132,7 @@ body {
 .bloc h2 {
   margin-bottom: 10px;
   font-size: 1.6rem;
+  color: #ca8b17;
 }
 
 /* GALERIE */
