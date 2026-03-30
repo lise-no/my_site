@@ -117,7 +117,7 @@ body {
 /* CONTENU */
 .container {
   max-width: 900px;
-  margin: 40px auto;
+  margin: 120px auto 40px;
   padding: 0 20px;
 }
 
@@ -177,15 +177,27 @@ body {
   font-weight: 600;
 }
 
-.palette {
-  display: flex;
-  gap: 15px;
-  margin: 20px 0;
+/* Mise en forme des sections */
+.info-section h2 {
+  margin-bottom: 20px;
 }
 
-.couleur {
-  width: 60px;
-  height: 60px;
-  border-radius: 8px;
-  border: 2px solid #ddd;
+.info-item {
+  margin-bottom: 15px;
+}
+
+.info-item h3 {
+  font-size: 1.2rem;
+  color: #a17fea; /* lavande */
+  margin-bottom: 5px;
+}
+
+/* Palette améliorée */
+.palette-image {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
