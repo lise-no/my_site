@@ -195,7 +195,7 @@ body {
 /* Palette améliorée */
 .palette-image {
   width: 100%;
-  max-width: 500px;
+  max-width: 50px;
   display: block;
   margin: 20px auto;
   border-radius: 12px;
