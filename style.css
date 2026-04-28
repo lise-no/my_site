@@ -61,7 +61,7 @@ body {
 }
 
 
-.hero-histoire {
+.hero-couleurs {
   background-image: url("images/pic1.jpeg");
   background-size: cover;
   background-position: center;
@@ -193,11 +193,22 @@ body {
 }
 
 /* Palette améliorée */
-.palette-image {
-  width: 100%;
-  max-width: 100px;
+.palette {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.palette h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+  color:#c68515
+}
+
+.palette img {
   display: block;
-  margin: 20px auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin: 0 auto;   /* centre l'image */
+  width: 80%;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(237, 177, 48, 0.2);
 }
