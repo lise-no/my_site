@@ -51,7 +51,7 @@ body {
 
 /* IMAGES DE FOND DIFFÉRENTES PAR PAGE */
 .hero-accueil {
-  background-image: url("images/Mariage Carole et Alain-25.jpg");
+  background-image: url("images/pic1.jpeg");
   background-size: cover;
   background-position: center;
   padding: 200px 20px;
@@ -62,7 +62,7 @@ body {
 
 
 .hero-couleurs {
-  background-image: url("images/pic1.jpeg");
+  background-image: url("https://images.unsplash.com/photo-1499084732479-de2c02d45fc4");
   background-size: cover;
   background-position: center;
   padding: 140px 20px;
@@ -101,7 +101,12 @@ body {
   margin-top: 60px;
 }
 
-
+.hero-content {
+  background: rgba(255,255,255,0.65);
+  padding: 25px;
+  border-radius: 20px;
+  display: inline-block;
+}
 .hero-content h1 {
   font-size: 3rem;
   font-weight: 700;
